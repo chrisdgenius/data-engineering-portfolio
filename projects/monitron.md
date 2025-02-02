@@ -9,7 +9,8 @@ How I Applied Expertise in Maintenance Management, DevOps, Data Engineering, and
 
 
 
-![Condition Monitoring Dashboard (Image credit: Author)](https://github.com/chrisdgenius/data-engineering-portfolio/blob/main/assets/profile.jpg)Condition Monitoring Dashboard
+![Condition Monitoring Dashboard (Image credit: Author)](https://github.com/chrisdgenius/data-engineering-portfolio/blob/main/assets/profile.jpg)
+Condition Monitoring Dashboard (Image credit: Author)
 
 
 
