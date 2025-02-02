@@ -10,7 +10,7 @@ How I Applied Expertise in Maintenance Management, DevOps, Data Engineering, and
 
 ![Image Description](https://user-images.githubusercontent.com/12345678/example.png)
 
-![Image Description](https://github.com/chrisdgenius/data-engineering-portfolio/blob/main/assets/profile.jpg)
+(https://github.com/chrisdgenius/data-engineering-portfolio/blob/main/assets/profile.jpg)![Image Description]
 
 
 
