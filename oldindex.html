@@ -1,1 +1,127 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Okonta - Data Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Christian Okonta, PhD</h1>
+      <p>Data Engineer | Cloud Specialist | Predictive Maintenance Expert</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="assets/profile.jpg" alt="Christian Okonta" class="profile-img">
+      <p>
+        I’m a data engineer with a PhD in Industrial Engineering and extensive experience in building scalable data pipelines, automating workflows, and optimizing cloud infrastructure. My expertise includes predictive maintenance, IoT data integration, and real-time analytics. I’m passionate about leveraging data to drive operational efficiency and innovation.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Amazon Monitron Predictive Maintenance System</h3>
+      <p>
+        Single-handedly implemented a predictive maintenance system using Amazon Monitron, AWS Kinesis, Lambda, Glue, and Grafana.
+      </p>
+      <ul>
+        <li>Integrated Monitron data with a Grafana dashboard for real-time monitoring.</li>
+        <li>Reduced Athena query costs by deploying Grafana on an EC2 instance.</li>
+        <li>Automated data ingestion using Glue Crawlers.</li>
+      </ul>
+      <p><strong>Technologies:</strong> AWS (Kinesis, Lambda, Glue, EC2, Athena), Grafana, Python.</p>
+      <a href="https://medium.com/@okonta.christian/a-multi-hat-journey-to-condition-monitoring-and-predictive-maintenance-with-amazon-monitron-1167607bea3c" class="btn">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>Mondelez SAP Notification System</h3>
+      <p>
+        Developed a real-time notification system by extracting SAP data and building an interactive Excel dashboard.
+      </p>
+      <ul>
+        <li>Automated data collection and processing using scripts.</li>
+        <li>Enabled real-time monitoring of raised notifications within 5 minutes.</li>
+      </ul>
+      <p><strong>Technologies:</strong> SAP, Python, Excel, VBA.</p>
+      <a href="projects/sap-notifications.md" class="btn">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>Machine Learning on Azure for Trading</h3>
+      <p>
+        Explored machine learning models on Azure and integrated them with trading Expert Advisors (EAs).
+      </p>
+      <ul>
+        <li>Built and deployed ML models for price prediction and risk management.</li>
+        <li>Integrated models with trading platforms using Azure Functions.</li>
+      </ul>
+      <p><strong>Technologies:</strong> Azure ML Studio, Python, MQL4/MQL5.</p>
+      <a href="projects/ml-trading.md" class="btn">View Project</a>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h3>Cloud Platforms</h3>
+        <p>AWS, Azure</p>
+      </div>
+      <div class="skill">
+        <h3>Data Engineering</h3>
+        <p>Kinesis, Lambda, Glue, Athena, EC2, Grafana</p>
+      </div>
+      <div class="skill">
+        <h3>Programming</h3>
+        <p>Python, SQL, VBA, MQL4/MQL5</p>
+      </div>
+      <div class="skill">
+        <h3>Data Visualization</h3>
+        <p>Grafana, Excel, Power BI</p>
+      </div>
+      <div class="skill">
+        <h3>Machine Learning</h3>
+        <p>Azure ML Studio, Scikit-learn, TensorFlow</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Interested in working together? Reach out to me at <a href="mailto:okonta.christian@yahoo.com">okonta.christian@yahoo.com</a>.</p>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Christian Okonta. All rights reserved.</p>
+      <p>Connect with me on <a href="https://www.linkedin.com/in/christian-okonta-ph-d-b7664b106">LinkedIn</a> or <a href="https://github.com/chrisdgenius">GitHub</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
