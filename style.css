@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -85,15 +85,25 @@ header nav ul li a {
   padding: 40px 0;
 }
 
-.project {
-  background: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
-.project h3 {
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
   margin-top: 0;
 }
 
@@ -104,6 +114,7 @@ header nav ul li a {
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 10px;
+  transition: background 0.3s ease;
 }
 
 .btn:hover {
@@ -121,12 +132,23 @@ header nav ul li a {
   gap: 20px;
 }
 
-.skill {
+.skill-card {
   background: #fff;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.skill-card i {
+  font-size: 2rem;
+  color: #3498db;
+  margin-bottom: 10px;
 }
 
 /* Contact Section */
@@ -158,6 +180,7 @@ form button {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 form button:hover {
