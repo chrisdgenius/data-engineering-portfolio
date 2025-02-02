@@ -7,7 +7,11 @@ A Multi-Hat Journey to Condition Monitoring and Predictive Maintenance with Amaz
 
 How I Applied Expertise in Maintenance Management, DevOps, Data Engineering, and Data Science to Implement a Complete Predictive Maintenance Solution with Amazon Monitron and Grafana
 
-<img src="assets/profile.jpg" alt="Alt Text" width="500"/>
+
+![Image Description](https://user-images.githubusercontent.com/12345678/example.png)
+
+![Image Description](https://github.com/chrisdgenius/data-engineering-portfolio/blob/main/assets/profile.jpg)
+
 
 
 Condition Monitoring Dashboard (Image credit: Author)
